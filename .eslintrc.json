@@ -29,7 +29,12 @@
                 "ts": "never"
             }
         ],
-        "prettier/prettier": "error",
+        "prettier/prettier": [
+            "error",
+            {
+                "endOfLine": "off"
+            }
+        ],
         "no-console": "off"
     },
     "settings": {
